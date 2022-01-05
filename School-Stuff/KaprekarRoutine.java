@@ -1,10 +1,7 @@
-package JustA_SchoolFile;
-
 import java.util.Arrays;
 import java.util.Scanner;
 
 /*
-name: Lotanna Dike
 Description: This program first declares some variables that are going to be used although some are declared within the program.
 Then it prompts the user for a four-digit number and if the user enters anything other than a 4 digit positive integer, the user will be prompted until a 4 digit positive integer is entered.
 Then the program puts the user's input into an array then the array Is sorted using a java method which had to be imported (java.util.Arrays). After sorting the array the programs sort the array again but this time in ascending order and descending order, each order was assigned to its respective variable.
@@ -16,7 +13,7 @@ The program checks if the value of diff is the same as the value of the previous
 The number of iterations is outputted and the program ends.
 
 
-!!	I created an if statement, if iterations are 2 the program should output a different output but whit the correct number of iterations. I did this because in the one test case on zyBooks there was an error on the test case output text. (I’m not sure if it was an error or it was supposed to be like that)
+!!	I created an if statement, if iterations are 2 the program should output a different output but with the correct number of iterations. I did this because in the one test case on zyBooks there was an error on the test case output text. (I’m not sure if it was an error or it was supposed to be like that)
 
  */
 public class KaprekarRoutine {
@@ -101,6 +98,7 @@ public class KaprekarRoutine {
             }
         }
 
+        
         if(numIterations == 2){
             System.out.println(numIterations + " iterations to reach the Kaprekar's constant of 0.");
 
